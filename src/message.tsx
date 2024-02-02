@@ -8,6 +8,7 @@ export const rich = {
     const t = useTranslations("global");
     return <span className="pink">{t("name")}</span>;
   },
+  pink: (content: ReactNode) => <span className="pink">{content}</span>,
   b: (content: ReactNode) => <b>{content}</b>,
   i: (content: ReactNode) => <i>{content}</i>,
 };

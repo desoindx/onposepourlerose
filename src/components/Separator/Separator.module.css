@@ -1,0 +1,6 @@
+.separator {
+  margin: 0 3rem;
+  width: 400px;
+  max-width: 100%;
+  border-top: solid 2px var(--primary)
+}

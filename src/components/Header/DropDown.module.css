@@ -1,0 +1,18 @@
+.button {
+  font-size: 1.25rem;
+}
+
+.container {
+  position: relative;
+}
+
+.items {
+  position: absolute;
+  background-color: var(--background-dark);
+  top: 100%;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

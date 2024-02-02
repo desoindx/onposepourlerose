@@ -100,3 +100,7 @@ b {
 .text {
   text-align: justify;
 }
+
+.center {
+  text-align: center;
+}

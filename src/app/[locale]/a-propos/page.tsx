@@ -1,4 +1,4 @@
-import Home from "@/components/Home";
+import About from "@/components/About";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 export default function AProposPage({
@@ -8,5 +8,5 @@ export default function AProposPage({
 }) {
   unstable_setRequestLocale(locale);
 
-  return <Home />;
+  return <About />;
 }

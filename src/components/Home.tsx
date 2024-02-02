@@ -6,8 +6,11 @@ import Section from "./Grid/Section";
 import Line from "./Grid/Line";
 import LinkButton from "./Link/LinkButton";
 import { rich } from "@/message";
+import NextEdition from "./Edition/NextEdition";
+import Separator from "./Separator/Separator";
 const Home = () => {
   const t = useTranslations("home");
+  const tHeader = useTranslations("header");
   const tGlobal = useTranslations("global");
   return (
     <>
@@ -16,14 +19,16 @@ const Home = () => {
       </div>
       <Section>
         <h2>{t("association").toUpperCase()}</h2>
-        <div className={styles.separator} />
+        <Separator />
         <Line>
           <div className="text">
             {t.rich("association-description", rich)}
             <br />
             <br />
             <div className={styles.button}>
-              <LinkButton href={"/a-propos"}>En savoir plus</LinkButton>
+              <LinkButton href={"/a-propos"}>
+                {tHeader("en-savoir-plus")}
+              </LinkButton>
             </div>
           </div>
           <div>
@@ -62,13 +67,10 @@ const Home = () => {
           </div>
         </div>
       </Section>
-      <div className={styles.banner2}>
-        <div className={styles.banner2Image} />
-        <div className={styles.box}>{t.rich("next-edition", rich)}</div>
-      </div>
+      <NextEdition banner={styles.banner2Image} />
       <Section>
         <h2>{t("soutien").toUpperCase()}</h2>
-        <div className={styles.separator} />
+        <Separator />
         <Line>
           <div className="text">{t.rich("soutien-description", rich)}</div>
           <div className={styles.buttons}>
@@ -77,7 +79,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferer"
             >
-              {t("adherer")}
+              {tHeader("adherer")}
             </LinkButton>
             <br />
             <br />
@@ -86,10 +88,56 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferer"
             >
-              {t("dons")}
+              {tHeader("dons")}
             </LinkButton>
           </div>
         </Line>
+      </Section>
+      <Section>
+        <h2>{t("chiffres").toUpperCase()}</h2>
+        <Separator />
+        <Line>
+          <div className={styles.data}>
+            <Image
+              className={styles.dataImage}
+              src="/images/photographes.png"
+              width={100}
+              height={100}
+              alt=""
+            />
+            <div>
+              <div className={styles.value}>69</div>
+              {t("chiffres-photographes")}
+            </div>
+          </div>
+          <div className={styles.data}>
+            <Image
+              className={styles.dataImage}
+              src="/images/participantes.jpeg"
+              width={100}
+              height={100}
+              alt=""
+            />
+            <div>
+              <div className={styles.value}>{(1185).toLocaleString()}</div>
+              {t("chiffres-participantes")}
+            </div>
+          </div>
+          <div className={styles.data}>
+            <Image
+              className={styles.dataImage}
+              src="/images/dons.png"
+              width={100}
+              height={100}
+              alt=""
+            />
+            <div>
+              <div className={styles.value}>{(80000).toLocaleString()}€</div>
+              {t("chiffres-dons")}
+            </div>
+          </div>
+        </Line>
+        <div className="center">{t.rich("chiffres-description", rich)}</div>
       </Section>
     </>
   );
