@@ -1,0 +1,28 @@
+{
+  "global": {
+    "name": "On pose pour le rose"
+  },
+  "header": {
+    "accueil": "Accueil"
+  },
+  "home": {
+    "association": "Association contre le cancer du sein",
+    "association-description": "<association></association> est une association mais avant tout un évènement de levée de fonds au profit de la recherche contre le cancer du sein.<br></br>L’idée est de venir prendre la pose le <b>samedi 7 octobre 2023</b> devant nos photographes bénévoles en échange d’un don et aussi en profiter pour passer un moment de bienveillance et de convivialité tout en faisant une bonne action.<br></br>Les bénéfices sont reversés à <b>La recherche contre le cancer du sein</b>.",
+    "association-button": "En savoir plus",
+    "origin": "À l'origine de l'initiative",
+    "origin-1": "En 2017, <b>Agathe Duffaut</b> de <i>Agathe Duffaut Photographie</i> a créé cet évènement, mobilisé 27 femmes et a pu reverser 905€.",
+    "origin-2": "Lors de la deuxième édition, cette journée a rassemblé 3 photographes ainsi qu’une équipe de bénévoles professionnelles dédiées au bien-être et mobilisé plus d’une quarantaine de femmes. Grâce à leur générosité, nous avons pu reverser 2 900€.",
+    "origin-3": "Pour notre troisième édition, grâce à nos 259 participantes et à plus de 100 bénévoles dans 8 villes en France, c’est 10 000€ qui ont été reversé à l’association <b>Le Ruban Rose</b> afin de soutenir la recherche contre le cancer du sein.",
+    "origin-4": "Pour notre quatrième édition nous avons continué le développement en France avec plus de 13 villes engagées. Nos équipes ont organisé la levée de fonds malgré un contexte sanitaire très compliqué. Nous avons mobilisé 35 photographes, 550 participantes, plus de 125 bénévoles et avons reversé <b>25 000€ à La recherche contre le cancer du sein</b>.",
+    "origin-5": "Pour nos 5 ans, nous avons mobilisés plus de 200 bénévoles dans <b>23 villes en France et à Seville</b> en Espagne. <b>47 photographes</b> et <b>944 participantes</b> ont permis de reverser <b>50 000€</b> à la recherche contre le cancer et aux soins de supports pour les patientes en traitements.",
+    "origin-6": "En 2022, nous avons mobilisés plus de 225 bénévoles dans <b>40 villes en France et à Seville</b> en Espagne. <b>69 photographes</b> et <b>1 185 participantes</b> ont permis de reverser <b>80 000€</b> à l’Institut Curie ainsi qu’à des associations locales qui aident les personnes atteintes dans leur parcours de soins.",
+    "next-edition": "Notre prochaine et septième édition aura lieu le <b>samedi 7 octobre 2023</b>.<br></br><br></br>Les inscriptions ouvriront le vendredi 1er septembre 2023 et cette année <b>seul•e•s nos adhérent•e•s auront le privilège d’y accéder en avant-première</b>.",
+    "soutien": "Comment nous soutenir toute l'année ?",
+    "soutien-description": "En plus de la journée <association></association> qui est organisée dans votre région début octobre, vous pouvez nous soutenir tout au long de l’année par un don direct et / ou en adhérant à l’association. Ces deux soutiens nous sont précieux <b>car ils nous permettent de couvrir les frais de fonctionnement de notre association et d’organiser les journées <association></association></b>.",
+    "adherer": "Adhérer",
+    "dons": "Faire un don"
+  },
+  "footer": {
+    "trademark": "© 2019-2024 Tous droits réservés"
+  }
+}

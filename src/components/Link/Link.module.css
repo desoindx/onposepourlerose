@@ -1,0 +1,19 @@
+.link {
+  text-decoration: none;
+  color: var(--primary);
+
+  &:hover {
+    color: var(--white);
+  }
+
+  &:focus {
+    color: var(--white);
+    outline: 3px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}

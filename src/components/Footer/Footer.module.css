@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--background-dark);
+  color: var(--white);
+  padding: 3rem 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}

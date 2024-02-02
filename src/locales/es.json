@@ -1,0 +1,21 @@
+{
+  "global": {
+    "name": "POSAMOS POR EL ROSA"
+  },
+  "header": {
+    "accueil": "Inicio"
+  },
+  "home": {
+    "association": "ASOCIACIÓN DE CÁNCER DE MAMA",
+    "association-description-1": "es una asociación pero sobre todo un evento de recaudación de fondos en beneficio de la investigación contra el cáncer de mama",
+    "association-description-2-1": "La idea es venir a posar el",
+    "association-description-2-date": "sábado, 7 de octubre de 2023",
+    "association-description-2-2": "frente a nuestros fotógrafos voluntarios a cambio de una donación pero sobre todo aprovechar la oportunidad para pasar un momento de benevolencia y convivencia mientras se hace una buena acción",
+    "association-description-3-1": "Las ganancias se donan a",
+    "association-description-3-2": "La recherche contre le cancer du sein",
+    "association-button": "Más información"
+  },
+  "footer": {
+    "trademark": "© 2019-2024 Todos los derechos reservados"
+  }
+}
