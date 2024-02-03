@@ -1,20 +1,87 @@
 {
   "global": {
-    "name": "POSAMOS POR EL ROSA"
+    "name": "Posamos para rosa"
   },
   "header": {
-    "accueil": "Inicio"
+    "accueil": "Inicio",
+    "a-propos": "A proposito",
+    "en-savoir-plus": "Más información",
+    "bureau": "La oficina de la asociación",
+    "editions": "Nuestras ediciones anteriores",
+    "partenaires": "Socios",
+    "photographes": "Nuestros fotógrafos",
+    "inscriptions": "Registros de fotógrafos",
+    "soutenir": "Apoyanos",
+    "adherer": "Unirse",
+    "dons": "Hacer una donación"
   },
   "home": {
-    "association": "ASOCIACIÓN DE CÁNCER DE MAMA",
-    "association-description-1": "es una asociación pero sobre todo un evento de recaudación de fondos en beneficio de la investigación contra el cáncer de mama",
-    "association-description-2-1": "La idea es venir a posar el",
-    "association-description-2-date": "sábado, 7 de octubre de 2023",
-    "association-description-2-2": "frente a nuestros fotógrafos voluntarios a cambio de una donación pero sobre todo aprovechar la oportunidad para pasar un momento de benevolencia y convivencia mientras se hace una buena acción",
-    "association-description-3-1": "Las ganancias se donan a",
-    "association-description-3-2": "La recherche contre le cancer du sein"
+    "association": "Asociación contra el cáncer de mama",
+    "association-description": "<association></association> es una asociación pero sobre todo un evento de recaudación de fondos en beneficio de la investigación contra el cáncer de mama.<br></br>La idea es venir a posar el <b>sábado 7 de octubre de 2023</b> frente a nuestros fotógrafos voluntarios a cambio de una donación y también aprovechar para pasar un momento de amabilidad y convivencia mientras se hace una buena acción.<br></br>Los beneficios se donan a <b>Investigación contra el pecho cáncer</b>.",
+    "origin": "En el origen de la iniciativa",
+    "origin-1": "En 2017, <b>Agathe Duffaut</b> de <i>Agathe Duffaut Photographie</i> creó este evento, movilizó a 27 mujeres y pudo donar 905€.",
+    "origin-2": "Durante la segunda edición, esta jornada reunió a 3 fotógrafos así como a un equipo de voluntarias profesionales dedicadas al bienestar y movilizó a más de cuarenta mujeres. Gracias a su generosidad pudimos donar 2.900€.",
+    "origin-3": "Para nuestra tercera edición, gracias a nuestros 259 participantes y más de 100 voluntarios en 8 ciudades de Francia, se donaron 10.000€ a la asociación <b>Le Ruban Rose</b> para apoyar la investigación sobre el cáncer de mama.",
+    "origin-4": "Para nuestra cuarta edición continuamos el desarrollo en Francia con más de 13 ciudades involucradas. Nuestros equipos organizaron la recaudación de fondos a pesar de un contexto sanitario muy complicado. Movilizamos a 35 fotógrafos, 550 participantes, más de 125 voluntarios y donamos <b>25.000€ a Breast Cancer Research</b>.",
+    "origin-5": "Para nuestro quinto aniversario, movilizamos a más de 200 voluntarios en <b>23 ciudades de Francia y Sevilla</b> en España. <b>47 fotógrafos</b> y <b>944 participantes</b> donaron <b>50.000€</b> a la investigación del cáncer y a la atención de apoyo a los pacientes sometidos a tratamiento.",
+    "origin-6": "En 2022, movilizamos a más de 225 voluntarios en <b>40 ciudades de Francia y Sevilla</b> en España. <b>69 fotógrafos</b> y <b>1.185 participantes</b> donaron <b>80.000 euros</b> al Instituto Curie, así como a asociaciones locales que ayudan a las personas afectadas en su proceso de atención.",
+    "next-edition": "Nuestra próxima y séptima edición se llevará a cabo el <b>sábado 7 de octubre de 2023</b>.<br></br><br></br>Las inscripciones se abrirán el viernes 1 de septiembre de 2023 y este año <b>solo Nuestros miembros tendrán el privilegio de acceso previo</b>.",
+    "soutien": "¿Cómo puedes apoyarnos durante todo el año?",
+    "soutien-description": "Además de la jornada <association></association> que se organiza en tu región a principios de octubre, puedes apoyarnos durante todo el año haciendo una donación directa y/o uniéndote a la asociación. Estos dos apoyos son valiosos para nosotros <b>porque nos permiten cubrir los gastos de funcionamiento de nuestra asociación y organizar las jornadas <association></association></b>.",
+    "chiffres": "2022 en números",
+    "chiffres-photographes": "Fotógrafos",
+    "chiffres-participantes": "Participantes",
+    "chiffres-dons": "invertido",
+    "chiffres-description": "Fue el pasado 1 de octubre que tuvo lugar nuestra sexta edición de <b><association></association></b> en 40 ciudades de Francia y Sevilla en España.<br></br><br></br> Fue una oportunidad para que nuestros participantes se tomaran un momento para sí mismos y disfrutaran de este día marcado por la bondad y la generosidad. Estuvieron acompañados por 69 fotógrafos y 225 voluntarios que cuidaron de ellos para hacer aún más hermosos estos momentos.<br></br><br></br>¡Y quien dice nueva edición, dice nuevo récord! Recaudamos <b>80.000€</b> para la investigación del cáncer y la atención de apoyo a los pacientes sometidos a tratamiento; Se donaron 55.000€ al Instituto Curie, nuestro principal socio, y 20.000€ a asociaciones apoyadas localmente."
+  },
+  "about": {
+    "description": "<association></association> es una asociación pero sobre todo un evento de recaudación de fondos en beneficio de la investigación contra el cáncer de mama.<br></br><br></br>La idea es venir a posar el sábado <pink> 7 de octubre de 2023</pink> frente a nuestros fotógrafos voluntarios a cambio de una donación y también aprovechar la oportunidad para pasar un momento de amabilidad y convivencia mientras hacemos una buena acción.<br></br><br></br>Los beneficios se donan a la <pink>Investigación contra el cáncer de mama</pink>.",
+    "soutien-titre": "Apoyamos",
+    "soutien-description": "Desde 2022, hemos donado la gran mayoría de nuestras donaciones al Instituto Curie, un gran centro de investigación internacional pero también un centro hospitalario para la lucha contra el cáncer de mama ubicado en la región de París.<br></br><br></br>Desde 2020, también hemos optado por apoyar a las asociaciones que trabajan a nivel local para luchar contra el cáncer de mama. Por eso, cada año, en cada ciudad, apoyaremos a una asociación elegida por los fotógrafos voluntarios.",
+    "soutien-sous-titre": "En 2022 apoyamos:",
+    "temoignage-titre": "Testimonio de la Asociación Ruban Rose a quien donamos nuestras donaciones de 2017 a 2021:",
+    "temoignage": "“¡Muchas gracias al fantástico equipo de <association></association>! ¡Una ovación especial para la asociación y para todos los brillantes fotógrafos y sus magníficas modelos que se unieron para apoyar la investigación! »",
+    "creneau-solidaire-titre": "El nicho solidario",
+    "creneau-solidaire": "Para ir aún más lejos en nuestro enfoque, desarrollamos una nueva iniciativa en 2020: <b>el nicho solidario</b>.<br></br><br></br>A partir de ahora, durante nuestras ediciones, cada fotógrafo ofrece un espacio gratuito para una sesión de fotos a una mujer en tratamiento.<br></br><br></br>Por lo tanto, cada año siempre habrá más mujeres que luchan o han luchado contra el cáncer que podrán beneficiarse de una sesión de fotos gratis!"
+  },
+  "bureau": {
+    "origin": "En el origen de la iniciativa",
+    "subtitle": "Agathe Duffaut de <i>Fotografía de Agathe Duffaut</i>",
+    "origin-description": "En 2017, traté de aprovechar mi trabajo para una causa cercana a mi corazón. Siendo mujer, madre de una niña y habiendo tenido seres queridos afectados por el cáncer de mama, quería, a través de mi trabajo, donar mi tiempo para ayudar a la investigación contra esta enfermedad.<br></br>La idea de crear On pose pour le rose era crear, por un día, el retrato de tantas mujeres como fuera posible, sublimarlas y ponerlas en escena a través de la fotografía a cambio de una donación. También nos rodeamos de un equipo de voluntarios profesionales para ofrecerles la oportunidad de hacer de este día un momento de relajación, amabilidad, buen humor y compartir. ¡Apuesta ganada!<br></br><br></br>No pensé que este evento crecería tanto y movilizaría a fotógrafos y voluntarios de toda Francia. Junto a mujeres de oro, hemos creado la asociación “<association></association>”.<br></br>¡Prueba de que movilizándonos, podemos hacer que las cosas sucedan!<br></br><br></br>Te esperamos el sábado 7 de octubre de 2023 frente a nuestro objetivo de participar en este evento solidario.<br></br>¿Y? <pink>¿Estamos posando para el rosa?</pink>",
+    "equipe": "Nuestro equipo"
+  },
+  "equipe": {
+    "agathe duffaut": "Presidente y fotógrafo",
+    "jennifer serantoni": "Tesorero y fotógrafo",
+    "eulalie nakache": "Secretaria",
+    "pauline poinet": "Community manager y fotógrafo",
+    "amandine blanchi": "Responsable de proyectos de eventos",
+    "laetitia": "Gerente de proyecto",
+    "jennyfer": "secretario suplente",
+    "séverine raynaud": "Gestión de galería y fotógrafos.",
+    "clémence spriet": "Administrador de página web"
+  },
+  "partenaires": {
+    "contact": "¿Le gustaría apoyarnos y convertirse en uno de nuestros socios?<br></br><br></br>No dude en <contact>contáctenos</contact>."
+  },
+  "photographes": {
+    "description": "En esta séptima edición, el evento se celebrará en <b>varias ciudades de Francia y en Sevilla en España</b>. Te invitamos a buscar al fotógrafo más cercano a ti y venir a tomar una <pink>pose para rosa</pink>. Las inscripciones se abrirán el viernes 1 de septiembre de 2023.<br></br><br></br>Hay un total de 79 fotógrafos voluntarios, cada uno de los cuales le dará la bienvenida para una sesión fotográfica a su imagen. Sus proyectos fotográficos se pueden descubrir en su página dedicada.<br></br><br></br>Además de las sesiones fotográficas solidarias, nuestros voluntarios le ofrecerán opciones solidarias en forma de talleres en determinados lugares para Devuélveme este día cada vez más hermoso.",
+    "shooting": "El rodaje solidario",
+    "shooting-1": "Dos fotos para descargar.",
+    "shooting-2": "Tratamiento de belleza opcional en",
+    "options": "Opciones solidarias",
+    "options-1": "A partir de",
+    "options-2": "por opción",
+    "options-3": "Yoga, masajes, creación floral, automasaje facial, arteterapia, donación de cabello…<br></br>Los talleres disponibles dependen de la ciudad y de los organizadores.",
+    "lieux": "Nuestros lugares",
+    "lieux-sous-titre": "En cada ciudad encontrarás los fotógrafos que estarán presentes allí y su proyecto.<br></br>Nuestros voluntarios estarán a su lado durante todo el día para recibirte en un ambiente agradable."
+  },
+  "inscriptions": {
+    "title": "Campaña de registro de fotógrafos - 2024",
+    "description": "Queridos fotógrafos,<br></br><br></br>Como cada año, <association></association> lanza su campaña de inscripciones y reinscripciones para la próxima edición. <b>En 2024, esto tendrá lugar el sábado 12 de octubre</b>. Te recordamos que sólo los <b>fotógrafos profesionales</b> están autorizados a participar en el evento como fotógrafos.<br></br><br></br>Este año hemos querido insistir especialmente en vuestro compromiso con nosotros. Implicarse en este proyecto y en la asociación es un compromiso que os llevará tiempo, antes de la edición pero también después. La edición del año en curso no termina con la tarde de su día, aún quedan varias cosas por hacer para cerrarlo todo.<br></br><br></br>No es que la imagen de la asociación que se está en juego sino también tu imagen como fotógrafo profesional y es muy importante que seas consciente de ello. Prometemos a nuestros participantes ciertos resultados y plazos, cada año confían en nosotros y cada vez son más. Si estamos aquí es en gran parte gracias a ellos y es muy importante no olvidarlo.<br></br><br></br>Hasta pronto,<br></br><br></br>Todo el equipo de <association></association>"
   },
   "footer": {
-    "trademark": "© 2019-2024 Todos los derechos reservados"
+    "trademark": "© 2019-2024 Todos los derechos reservados",
+    "contact": "Contáctenos"
   }
 }

@@ -19,7 +19,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferer"
             >
-              Nous contacter
+              {t("contact")}
             </Link>
             <Link
               href="https://www.facebook.com/onPosepourLeRose/"
