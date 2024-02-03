@@ -41,6 +41,7 @@ const Bureau = () => {
       </Section>
       <Section color>
         <h2>{t("equipe")}</h2>
+        <Separator />
         <div className={styles.equipe}>
           <Member name="agathe duffaut" />
           <Member name="jennifer serantoni" />
@@ -52,7 +53,6 @@ const Bureau = () => {
           <Member name="séverine raynaud" />
           <Member name="clémence spriet" />
         </div>
-        <Separator />
       </Section>
     </>
   );
