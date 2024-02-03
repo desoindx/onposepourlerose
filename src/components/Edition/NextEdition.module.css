@@ -19,7 +19,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  background-color: var(--primary);
+  background-color: var(--primary-light);
   opacity: 0.9;
   color: var(--white);
   max-width: 500px;

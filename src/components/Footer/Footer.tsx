@@ -15,6 +15,13 @@ const Footer = () => {
         <div>
           <div className={styles.logos}>
             <Link
+              href="mailto:web@onposepourlerose.fr"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              Nous contacter
+            </Link>
+            <Link
               href="https://www.facebook.com/onPosepourLeRose/"
               target="_blank"
               rel="noopener noreferer"

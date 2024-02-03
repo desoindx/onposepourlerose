@@ -7,7 +7,7 @@ import { unstable_setRequestLocale } from "next-intl/server";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Association contre le cancer du sein - On pose pour le rose",
+  title: "On pose pour le rose - Association contre le cancer du sein",
   description:
     "On pose pour le rose est une association mais avant tout un évènement de levée de fonds au profit de la recherche contre le cancer du sein.",
 };

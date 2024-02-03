@@ -1,0 +1,32 @@
+.banner {
+  background-image: url(/images/Banniere_7.jpeg);
+}
+
+.box {
+  background-color: var(--primary-light);
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  color: var(--white);
+
+  a {
+    color: var(--white);
+
+    &:hover {
+      color: var(--primary)
+    }
+  }
+}
+
+.partenaires {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+}

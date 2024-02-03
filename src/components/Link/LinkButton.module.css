@@ -9,8 +9,8 @@
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--white);
-  background-color: var(--primary);
-  border: solid 1px var(--primary);
+  background-color: var(--primary-light);
+  border: solid 1px var(--primary-light);
 
   &:hover {
     color: var(--primary);
@@ -27,6 +27,6 @@
   }
 
   &:active {
-    background-color: var(--primary);
+    background-color: var(--primary-light);
   }
 }

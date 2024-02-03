@@ -36,8 +36,49 @@
   },
   "about": {
     "description": "<association></association> est une association mais avant tout un évènement de levée de fonds au profit de la recherche contre le cancer du sein.<br></br><br></br>L’idée est de venir prendre la pose le <pink>samedi 7 octobre 2023</pink> devant nos photographes bénévoles en échange d’un don et aussi en profiter pour passer un moment de bienveillance et de convivialité tout en faisant une bonne action.<br></br><br></br>Les bénéfices sont reversés à <pink>La recherche contre le cancer du sein</pink>.",
-    "soutien": "Nous soutenons",
-    "soutien-description": "Depuis 2022, nous reversons la grande majorité de nos dons à l’Institut Curie, grand centre de recherche international mais également centre hospitalier de lutte contre le cancer du sein situé sur la région parisienne.<br></br><br></br>Depuis 2020, nous avons également choisi de soutenir des associations qui œuvrent localement pour lutter contre le cancer du sein. Ainsi chaque année, dans chaque ville, nous soutiendrons une association choisie par le ou les photographes bénévoles."
+    "soutien-titre": "Nous soutenons",
+    "soutien-description": "Depuis 2022, nous reversons la grande majorité de nos dons à l’Institut Curie, grand centre de recherche international mais également centre hospitalier de lutte contre le cancer du sein situé sur la région parisienne.<br></br><br></br>Depuis 2020, nous avons également choisi de soutenir des associations qui œuvrent localement pour lutter contre le cancer du sein. Ainsi chaque année, dans chaque ville, nous soutiendrons une association choisie par le ou les photographes bénévoles.",
+    "soutien-sous-titre": "En 2022 nous avons soutenu :",
+    "temoignage-titre": "Témoignage de l’Association Ruban Rose à qui nous avons reversé nos dons de 2017 à 2021 :",
+    "temoignage": "« Mille mercis à la formidable équipe de <association></association> ! Une spéciale ovation pour l’association et toutes les géniales photographes et leurs magnifiques modèles qui se sont mobilisées pour soutenir la recherche ! »",
+    "creneau-solidaire-titre": "Le créneau solidaire",
+    "creneau-solidaire": "Pour aller encore plus loin dans notre démarche, nous avons développé une nouvelle initiative en 2020 : <b>le créneau solidaire</b>.<br></br><br></br>Dorénavant lors de nos éditions, chaque photographe met à disposition d’une femme en cours de traitement, un créneau gracieux pour un shooting photo.<br></br><br></br>Chaque année, ce seront donc toujours plus de femmes qui combattent ou ont combattu le cancer qui pourront bénéficier d’un shooting photo gratuit !"
+  },
+  "bureau": {
+    "origin": "À l'origine de l'initiative",
+    "subtitle": "Agathe Duffaut de <i>Agathe Duffaut Photographie</i>",
+    "origin-description": "En 2017, j’ai cherché à mettre à profit mon travail pour une cause qui me tient à cœur. Étant une femme, mère d’une petite fille et ayant eu des proches touchées par le cancer du sein, j’ai souhaité, à travers mon travail, donner de mon temps pour aider la recherche contre cette maladie.<br></br>L’idée, en créant On pose pour le rose était de réaliser, pendant une journée, le portrait d’un maximum de femmes, de les sublimer et de les mettre à l’honneur via la photographie en échange d’un don. Nous nous sommes également entourées d’une équipe de professionnelles bénévoles pour leur proposer de faire de cette journée un moment de détente, de bienveillance, de bonne humeur et de partage. Pari gagné !<br></br><br></br>Je ne pensais pas que cet évènement grandirait autant et mobiliserait des photographes et bénévoles partout en France. Rejointe par des femmes en or, nous avons maintenant créé l’association « <association></association> ».<br></br>La preuve qu’en nous mobilisant, nous pourrons faire bouger les choses !<br></br><br></br>Nous vous attendons le samedi 7 octobre 2023 devant notre objectif pour participer à cet évènement solidaire.<br></br>Alors ? <pink>On pose pour le rose ?</pink>",
+    "equipe": "Notre équipe"
+  },
+  "equipe": {
+    "agathe duffaut": "Présidente & Photographe",
+    "jennifer serantoni": "Trésorière & Photographe",
+    "eulalie nakache": "Secrétaire",
+    "pauline poinet": "Community manager & Photographe",
+    "amandine blanchi": "Cheffe de projet événementiel",
+    "laetitia": "Cheffe de projet",
+    "jennyfer": "Secrétaire suppléante",
+    "séverine raynaud": "Gestion Galerie & Photographe",
+    "clémence spriet": "Webmaster"
+  },
+  "partenaires": {
+    "contact": "Vous souhaitez nous soutenir et devenir l’un de nos partenaires ?<br></br><br></br>N’hésitez pas à <contact>nous contacter</contact>."
+  },
+  "photographes": {
+    "description": "Pour cette septième édition, l’évènement se tiendra dans <b>plusieurs villes en France et à Séville en Espagne</b>. Nous vous invitons à trouver le photographe le plus proche de chez vous et pour venir prendre <pink>la pose pour le rose</pink>. Les inscriptions ouvriront le vendredi 1er septembre 2023.<br></br><br></br>Ce sont au total 79 photographes bénévoles qui vous accueilleront chacun pour un shooting photo à leur image. Leur projets photos sont à découvrir sur leur page dédiée.<br></br><br></br>En plus des shootings solidaires, des options solidaires sous formes d’ateliers vous seront proposées sur certains lieux par nos bénévoles pour rendre cette journée toujours plus belle.",
+    "shooting": "Le shooting solidaire",
+    "shooting-1": "Deux photos à télécharger",
+    "shooting-2": "Mise en beauté optionnelle à",
+    "options": "Les options solidaires",
+    "options-1": "À partir de",
+    "options-2": "par option",
+    "options-3": "Yoga, massage, création florale, auto-massage du visage, art thérapie, don de cheveux…<br></br>Les ateliers disponibles dépendent des villes et des organisateurs.",
+    "lieux": "Nos lieux",
+    "lieux-sous-titre": "Vous trouverez dans chaque ville, les photographes qui y seront présents ainsi que leur projet.<br></br>Nos bénévoles seront à leur côté toute la journée pour vous accueillir dans une ambiance bienveillante."
+  },
+  "inscriptions": {
+    "title": "Campagne d'inscription photographe - 2024",
+    "description": "Cher•e•s photographes,<br></br><br></br>Comme tous les ans, <association></association> lance sa campagne d’inscription et de ré-inscription pour la prochaine édition. <b>En 2024, celle-ci aura lieu le samedi 12 octobre</b>. Nous vous rappelons que seuls les <b>photographes professionnel•le•s</b> sont autorisés à participer à l’évènement en tant que photographe.<br></br><br></br>Cette année nous voulions particulièrement insister sur votre engagement à nos côtés. S’investir dans ce projet et dans l’association, c’est un engagement qui va vous prendre du temps, avant l’édition mais aussi après. L’édition de l’année en cours ne s’arrête pas le soir de votre journée, il reste encore plusieurs choses à faire pour tout clôturer.<br></br><br></br>Ce n’est pas que l’image de l’association qui est en jeu mais aussi votre image en tant que photographe professionnel et il est très important que vous en ayez conscience. Nous promettons à nos participantes certains résultats et délais, elles nous font chaque année confiance et sont de plus en plus nombreuses. Si nous sommes là c’est en très grande partie grâce à elles et il est très important de ne pas l’oublier.<br></br><br></br>À très vite,<br></br><br></br>Toute l’équipe de <association></association>"
   },
   "footer": {
     "trademark": "© 2019-2024 Tous droits réservés"

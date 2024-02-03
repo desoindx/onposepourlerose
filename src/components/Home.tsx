@@ -8,15 +8,14 @@ import LinkButton from "./Link/LinkButton";
 import { rich } from "@/message";
 import NextEdition from "./Edition/NextEdition";
 import Separator from "./Separator/Separator";
+import Banner from "./Banner/Banner";
 const Home = () => {
   const t = useTranslations("home");
   const tHeader = useTranslations("header");
   const tGlobal = useTranslations("global");
   return (
     <>
-      <div className={styles.banner1}>
-        <h1>{tGlobal("name").toUpperCase()}</h1>
-      </div>
+      <Banner header={tGlobal("name")} className={styles.banner1} />
       <Section>
         <h2>{t("association").toUpperCase()}</h2>
         <Separator />

@@ -1,0 +1,20 @@
+.banner {
+  background-image: url(/images/Banniere_5.jpeg);
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media (max-width: 900px) {
+    flex-direction: row;
+  }
+}
+
+.equipe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

@@ -11,4 +11,13 @@ export const rich = {
   pink: (content: ReactNode) => <span className="pink">{content}</span>,
   b: (content: ReactNode) => <b>{content}</b>,
   i: (content: ReactNode) => <i>{content}</i>,
+  contact: (content: ReactNode) => (
+    <a
+      href="mailto:partenariat@onposepourlerose.fr"
+      target="_blank"
+      rel="noopener noreferer"
+    >
+      {content}
+    </a>
+  ),
 };

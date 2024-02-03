@@ -7,10 +7,10 @@
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--neutral-00);
-  background-color: var(--primary);
+  background-color: var(--primary-light);
 
   &:hover {
-    background-color: var(--primary);
+    background-color: var(--primary-light);
   }
 
   &:focus {
@@ -23,6 +23,6 @@
   }
 
   &:active {
-    background-color: var(--primary);
+    background-color: var(--primary-light);
   }
 }

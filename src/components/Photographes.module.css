@@ -1,0 +1,44 @@
+.banner {
+  background-image: url(/images/Banniere_8.jpg);
+  background-position: center -100px !important;
+
+  @media (max-width: 1000px) {
+    background-position: center !important;
+  }
+}
+
+.banner2 {
+  background-image: url(/images/Banniere_9.jpg);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.box {
+  background-color: var(--primary-light);
+  color: white;
+  padding: 2rem;
+  max-width: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxTitle {
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+}
+
+.images {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
