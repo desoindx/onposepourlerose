@@ -5,6 +5,7 @@ import Link from "../Link/Link";
 import NextLink from "next/link";
 import { useTranslations } from "next-intl";
 import DropDown from "./DropDown";
+import Flags from "./Flags";
 
 const Header = () => {
   const t = useTranslations("header");
@@ -44,22 +45,7 @@ const Header = () => {
               },
             ]}
           />
-          <NextLink href="/fr">
-            <Image
-              src="/flags/fr.png"
-              width={18}
-              height={12}
-              alt="Drapeau Français"
-            />
-          </NextLink>
-          <NextLink href="/es">
-            <Image
-              src="/flags/es.png"
-              width={18}
-              height={12}
-              alt="Drapeau Espagnol"
-            />
-          </NextLink>
+          <Flags />
         </div>
       </div>
     </nav>
