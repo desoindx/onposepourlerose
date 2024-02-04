@@ -17,6 +17,8 @@
     "postcss-import": "^16.0.0",
     "postcss-nested": "^6.0.1",
     "postcss-preset-env": "^9.3.0",
+    "preact": "^10.19.3",
+    "preact-compat": "^3.19.0",
     "react": "^18",
     "react-dom": "^18"
   },
