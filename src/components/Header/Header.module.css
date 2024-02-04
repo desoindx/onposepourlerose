@@ -1,6 +1,6 @@
 .header {
   background-color: var(--background-dark);
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .links {
@@ -9,6 +9,10 @@
   gap: 1rem;
   font-size: 1.25rem;
   align-items: center;
+
+  a {
+    padding: 0.5rem 0;
+  }
 }
 
 .flags {
@@ -16,4 +20,8 @@
   justify-content: flex-end;
   gap: 1rem;
   align-items: center;
+
+  a {
+    padding: 0.5rem 0;
+  }
 }

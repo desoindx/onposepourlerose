@@ -3,7 +3,7 @@
 import React from "react";
 import NextLink from "next/link";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const Flags = () => {
   const path = usePathname();
