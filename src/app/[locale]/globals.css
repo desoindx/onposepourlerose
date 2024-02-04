@@ -187,3 +187,41 @@ b {
 .center {
   text-align: center;
 }
+
+
+.marker-popup {
+  position: absolute;
+  padding: 0.25rem;
+  font-size: 1rem;
+  top: 0;
+  left: 50%;
+  background-color: var(--white);
+  color: var(--primary);
+  transform: translate(-50%, -110%);
+  border-radius: 4px;
+  border: solid 1px var(--primary);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.25s linear;
+}
+
+.marker {
+  position: relative;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border: solid 1px var(--white);
+  background-color: var(--primary);
+  padding: 0;
+
+  &:hover {
+    background-color: var(--primary-light);
+
+    .marker-popup {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

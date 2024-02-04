@@ -31,6 +31,25 @@ const Map = () => {
       dragRotate: false,
       interactive: false,
     });
+
+    map.current.on("load", () => {
+      if (!map.current) {
+        return;
+      }
+
+      const element = document.createElement("a");
+      element.className = "marker";
+      element.href = "https://google.fr";
+      const hover = document.createElement("div");
+      hover.className = "marker-popup";
+      hover.textContent = "Paris";
+
+      element.appendChild(hover);
+
+      const marker = new maplibregl.Marker({ element: element })
+        .setLngLat([2.3522219, 48.856614])
+        .addTo(map.current);
+    });
   }, []);
 
   return (
