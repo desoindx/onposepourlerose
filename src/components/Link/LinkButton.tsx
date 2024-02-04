@@ -7,7 +7,7 @@ import classNames from "classnames";
 import { useParams } from "next/navigation";
 
 const LinkButton = (
-  props: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>
+  props: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>,
 ) => {
   const params = useParams();
   const href = props.href.startsWith("/")

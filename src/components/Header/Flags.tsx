@@ -9,7 +9,9 @@ const Flags = () => {
   const path = usePathname();
   return (
     <>
-      <NextLink href={path.replace("/es/", "/fr/")}>
+      <NextLink
+        href={path.startsWith("/es") ? path.replace("/es", "/fr") : path}
+      >
         <Image
           src="/flags/fr.png"
           width={18}
@@ -17,7 +19,9 @@ const Flags = () => {
           alt="Drapeau Français"
         />
       </NextLink>
-      <NextLink href={path.replace("/fr/", "/es/")}>
+      <NextLink
+        href={path.startsWith("/fr") ? path.replace("/fr", "/es") : path}
+      >
         <Image
           src="/flags/es.png"
           width={18}

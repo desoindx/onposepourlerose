@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import Link from "../Link/Link";
-import NextLink from "next/link";
 import { useTranslations } from "next-intl";
 import DropDown from "./DropDown";
 import Flags from "./Flags";
@@ -10,7 +9,7 @@ import Flags from "./Flags";
 const Header = () => {
   const t = useTranslations("header");
   return (
-    <nav className={styles.header}>
+    <div className={styles.header}>
       <div className="flex-container">
         <div className={styles.links}>
           <Image src="/images/logo.png" width={180} height={82} alt="" />
@@ -48,7 +47,7 @@ const Header = () => {
           <Flags />
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

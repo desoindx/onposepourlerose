@@ -25,6 +25,7 @@ const Footer = () => {
               href="https://www.facebook.com/onPosepourLeRose/"
               target="_blank"
               rel="noopener noreferer"
+              title="Nous suivre sur facebook"
             >
               <svg
                 width="1.5rem"
@@ -62,6 +63,7 @@ const Footer = () => {
               href="https://www.instagram.com/onposepourlerose/"
               target="_blank"
               rel="noopener noreferer"
+              title="Nous suivre sur Instagram"
             >
               <svg
                 width="1.5rem"
@@ -100,6 +102,7 @@ const Footer = () => {
               href="https://www.youtube.com/channel/UC6L25DcU1AbDMYQ5TDmgF9g/"
               target="_blank"
               rel="noopener noreferer"
+              title="Nous suivre sur youtube"
             >
               <svg
                 fill="currentcolor"

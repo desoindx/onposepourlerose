@@ -28,5 +28,5 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 332px;
-  gap: 32px
+  gap: 32px;
 }
