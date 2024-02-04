@@ -7,6 +7,7 @@ import Section from "./Grid/Section";
 import Image from "next/image";
 import NextEdition from "./Edition/NextEdition";
 import Separator from "./Separator/Separator";
+import Map from "./Map/Map";
 
 const Photographes = () => {
   const tHeader = useTranslations("header");
@@ -82,6 +83,9 @@ const Photographes = () => {
           <div>{t.rich("lieux-sous-titre", rich)}</div>
         </div>
         <Separator />
+      </Section>
+      <Section>
+        <Map />
       </Section>
     </>
   );
