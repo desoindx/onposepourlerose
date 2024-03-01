@@ -9,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Separator from "./Separator/Separator";
 import Banner from "./Banner/Banner";
+import LinkButton from "./Link/LinkButton";
 const About = () => {
   const t = useTranslations("about");
   const tHome = useTranslations("home");
@@ -37,9 +38,28 @@ const About = () => {
           <br />
           <br />
           {tHome.rich("origin-6", rich)}
+          <br />
+          <br />
+          {tHome.rich("origin-7", rich)}
         </div>
+        <Line>
+          <LinkButton
+            href="/a-propos/bureau"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            {tHeader("bureau")}
+          </LinkButton>
+          <LinkButton
+            href="/a-propos/editions-precedentes"
+            target="_blank"
+            rel="noopener noreferer"
+          >
+            {tHeader("editions")}
+          </LinkButton>
+        </Line>
       </Section>
-      <NextEdition banner={styles.banner2Image} />
+      <NextEdition banner={styles.banner2Image} withButton/>
 
       <Section>
         <h2>{t("soutien-titre").toUpperCase()}</h2>

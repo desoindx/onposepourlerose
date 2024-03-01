@@ -7,8 +7,9 @@
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   align-items: center;
+  text-transform: uppercase;
 
   a {
     padding: 0.5rem 0;

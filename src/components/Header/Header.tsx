@@ -25,14 +25,12 @@ const Header = () => {
           />
           <Link href="/nos-photographes">{t("photographes")}</Link>
           <Link href="/inscriptions">{t("inscriptions")}</Link>
-        </div>
-        <div className={styles.flags}>
           <DropDown
             label={t("soutenir")}
             options={[
               {
                 label: t("adherer"),
-                href: "https://www.helloasso.com/associations/onposepourlerose/adhesions/on-pose-pour-le-rose",
+                href: "https://www.helloasso.com/associations/onposepourlerose/adhesions/adhesion-2024",
                 target: "_blank",
                 rel: "noopener noreferer",
               },
@@ -44,6 +42,8 @@ const Header = () => {
               },
             ]}
           />
+        </div>
+        <div className={styles.flags}>
           <Flags />
         </div>
       </div>

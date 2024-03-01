@@ -1,7 +1,8 @@
 :root {
   --primary: #ee91b4;
-  --primary-light: #eab4ca;
+  --primary-light: #ee91b4b3;
   --text: #818b92;
+  --text-dark: #5b5b5b;
   --background-dark: #333333;
   --white: #ffffff;
 }
@@ -152,7 +153,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
-  font-weight: bold;
+  color: var(--text-dark);
 }
 
 i {

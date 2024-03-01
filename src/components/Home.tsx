@@ -35,7 +35,7 @@ const Home = () => {
               className={styles.video}
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/4NL6tYgZT50?si=b4KRXo0PiVizpgxy"
+              src="https://www.youtube.com/embed/h3-J97cdXbs?si=BJtRcaj2yZn7fvvv"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -63,6 +63,7 @@ const Home = () => {
             <div className={styles.firstLine}>{t.rich("origin-4", rich)}</div>
             <div>{t.rich("origin-5", rich)}</div>
             <div>{t.rich("origin-6", rich)}</div>
+            <div>{t.rich("origin-7", rich)}</div>
           </div>
         </div>
       </Section>
@@ -74,7 +75,7 @@ const Home = () => {
           <div className="text">{t.rich("soutien-description", rich)}</div>
           <div className={styles.buttons}>
             <LinkButton
-              href="https://www.helloasso.com/associations/onposepourlerose/adhesions/on-pose-pour-le-rose"
+              href="https://www.helloasso.com/associations/onposepourlerose/adhesions/adhesion-2024"
               target="_blank"
               rel="noopener noreferer"
             >
@@ -105,7 +106,7 @@ const Home = () => {
               alt=""
             />
             <div>
-              <div className={styles.value}>69</div>
+              <div className={styles.value}>77</div>
               {t("chiffres-photographes")}
             </div>
           </div>
@@ -118,7 +119,7 @@ const Home = () => {
               alt=""
             />
             <div>
-              <div className={styles.value}>{(1185).toLocaleString()}</div>
+              <div className={styles.value}>{(1414).toLocaleString()}</div>
               {t("chiffres-participantes")}
             </div>
           </div>
@@ -131,7 +132,7 @@ const Home = () => {
               alt=""
             />
             <div>
-              <div className={styles.value}>{(80000).toLocaleString()}€</div>
+              <div className={styles.value}>{(85000).toLocaleString()}€</div>
               {t("chiffres-dons")}
             </div>
           </div>
