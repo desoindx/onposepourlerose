@@ -1,6 +1,5 @@
 import { photographes } from "@/airtable";
 import Photographes from "@/components/Photographes";
-import Airtable from "airtable";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -15,6 +14,5 @@ export default async function NosPhotographesPage({
 }) {
   unstable_setRequestLocale(locale);
   const result = await photographes.select().all();
-  console.log(result);
   return <Photographes />;
 }
