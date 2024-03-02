@@ -5,26 +5,36 @@ import Link from "../Link/Link";
 import { useTranslations } from "next-intl";
 import DropDown from "./DropDown";
 import Flags from "./Flags";
+import BurgerMenu from "./BurgerMenu";
 
 const Header = () => {
   const t = useTranslations("header");
   return (
     <div className={styles.header}>
       <div className="flex-container">
+        <Image src="/images/logo.png" width={180} height={82} alt="" />
         <div className={styles.links}>
-          <Image src="/images/logo.png" width={180} height={82} alt="" />
-          <Link href="/">{t("accueil")}</Link>
+          <Link activeLink href="/">
+            {t("accueil")}
+          </Link>
           <DropDown
             label={t("a-propos")}
             options={[
               { label: t("en-savoir-plus"), href: "/a-propos" },
               { label: t("bureau"), href: "/a-propos/bureau" },
-              { label: t("editions"), href: "/a-propos/editions-precedentes" },
+              {
+                label: t("editions"),
+                href: "/a-propos/editions-precedentes",
+              },
               { label: t("partenaires"), href: "/a-propos/partenaires" },
             ]}
           />
-          <Link href="/nos-photographes">{t("photographes")}</Link>
-          <Link href="/inscriptions">{t("inscriptions")}</Link>
+          <Link activeLink href="/nos-photographes">
+            {t("photographes")}
+          </Link>
+          <Link activeLink href="/inscriptions">
+            {t("inscriptions")}
+          </Link>
           <DropDown
             label={t("soutenir")}
             options={[
@@ -45,6 +55,9 @@ const Header = () => {
         </div>
         <div className={styles.flags}>
           <Flags />
+          <div className={styles.burgerMenu}>
+            <BurgerMenu />
+          </div>
         </div>
       </div>
     </div>

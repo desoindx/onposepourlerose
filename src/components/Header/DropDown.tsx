@@ -4,6 +4,9 @@ import React, { useEffect, useState } from "react";
 import stylesLink from "../Link/Link.module.css";
 import styles from "./DropDown.module.css";
 import Link from "../Link/Link";
+import DropDownArrow from "./DropDownArrow";
+import classNames from "classnames";
+import { usePathname } from "next/navigation";
 
 const DropDown = ({
   label,
@@ -13,6 +16,7 @@ const DropDown = ({
   options: { label: string; href: string; target?: string; rel?: string }[];
 }) => {
   const [open, setOpen] = useState(false);
+  const pathName = usePathname();
 
   useEffect(() => {
     if (open) {
@@ -30,43 +34,25 @@ const DropDown = ({
   return (
     <div className={styles.container}>
       <button
-        className={stylesLink.link}
+        className={classNames(stylesLink.link, {
+          [stylesLink.active]: pathName.includes(options[0].href),
+        })}
         onClick={() => {
           setOpen(true);
         }}
       >
         <div className={styles.button}>
           <span>{label} </span>
-          <svg
-            width="1rem"
-            height="1rem"
-            viewBox="2 2 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M7 10L12 15L17 10"
-                stroke="currentcolor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </g>
-          </svg>
+          <DropDownArrow open={open} />
         </div>
       </button>
       {open && (
         <div className={styles.items}>
           {options.map(({ label, ...props }) => (
             <div key={label}>
-              <Link {...props}>{label}</Link>
+              <Link activeLink {...props}>
+                {label}
+              </Link>
             </div>
           ))}
         </div>

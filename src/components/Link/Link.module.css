@@ -21,3 +21,12 @@
     outline: none;
   }
 }
+
+.active,
+.activeLink {
+  color: var(--white);
+}
+
+.activeLink {
+  cursor: default;
+}

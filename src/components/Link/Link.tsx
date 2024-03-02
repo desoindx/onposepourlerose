@@ -3,14 +3,29 @@
 import NextLink, { LinkProps } from "next/link";
 import React, { AnchorHTMLAttributes } from "react";
 import styles from "./Link.module.css";
-import { useParams } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
+import classNames from "classnames";
 
-const Link = (props: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>) => {
+const Link = ({
+  activeLink,
+  ...props
+}: { activeLink?: boolean } & LinkProps &
+  AnchorHTMLAttributes<HTMLAnchorElement>) => {
+  const pathName = usePathname();
+
   const params = useParams();
   const href = props.href.startsWith("/")
     ? `/${params.locale}${props.href}`
     : props.href;
-  return <NextLink {...props} href={href} className={styles.link} />;
+  return (
+    <NextLink
+      {...props}
+      href={href}
+      className={classNames(styles.link, {
+        [styles.activeLink]: activeLink && pathName === href,
+      })}
+    />
+  );
 };
 
 export default Link;
