@@ -16,7 +16,7 @@ const Photographes = () => {
     <>
       <Banner header={tHeader("photographes")} className={styles.banner} />
       <Section>
-        <div className="text">{t.rich("description", rich)}</div>
+        <div>{t.rich("description", rich)}</div>
         <div className={styles.boxes}>
           <div className={styles.box}>
             <div>

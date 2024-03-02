@@ -19,7 +19,7 @@ const Inscriptions = () => {
           height={428}
           alt=""
         />
-        <div className="text">{t.rich("description", rich)}</div>
+        <div>{t.rich("description", rich)}</div>
         <Separator />
       </Section>
     </>

@@ -20,7 +20,7 @@ const Home = () => {
         <h2>{t("association").toUpperCase()}</h2>
         <Separator />
         <Line>
-          <div className="text">
+          <div>
             {t.rich("association-description", rich)}
             <br />
             <br />
@@ -45,7 +45,7 @@ const Home = () => {
       </Section>
       <Section>
         <h3>{t("origin")}</h3>
-        <div className="text">
+        <div>
           <Line>
             <Image
               width={300}
@@ -72,7 +72,7 @@ const Home = () => {
         <h2>{t("soutien").toUpperCase()}</h2>
         <Separator />
         <Line>
-          <div className="text">{t.rich("soutien-description", rich)}</div>
+          <div>{t.rich("soutien-description", rich)}</div>
           <div className={styles.buttons}>
             <LinkButton
               href="https://www.helloasso.com/associations/onposepourlerose/adhesions/adhesion-2024"

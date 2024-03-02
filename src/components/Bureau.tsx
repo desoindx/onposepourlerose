@@ -36,7 +36,7 @@ const Bureau = () => {
               alt=""
             />
           </div>
-          <div className="text">{t.rich("origin-description", rich)}</div>
+          <div>{t.rich("origin-description", rich)}</div>
         </Line>
       </Section>
       <Section color>

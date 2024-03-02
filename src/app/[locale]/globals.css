@@ -181,10 +181,6 @@ b {
   color: var(--primary);
 }
 
-.text {
-  text-align: justify;
-}
-
 .center {
   text-align: center;
 }

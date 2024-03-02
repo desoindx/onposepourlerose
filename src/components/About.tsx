@@ -18,7 +18,7 @@ const About = () => {
     <>
       <Banner header={tHeader("a-propos")} className={styles.banner1} />
       <Section>
-        <div className="text">
+        <div>
           {t.rich("description", rich)}
           <br />
           <br />
@@ -59,13 +59,13 @@ const About = () => {
           </LinkButton>
         </Line>
       </Section>
-      <NextEdition banner={styles.banner2Image} withButton/>
+      <NextEdition banner={styles.banner2Image} withButton />
 
       <Section>
         <h2>{t("soutien-titre").toUpperCase()}</h2>
         <Separator />
         <Line>
-          <div className="text">{t.rich("soutien-description", rich)}</div>
+          <div>{t.rich("soutien-description", rich)}</div>
           <Link
             href="https://curie.fr"
             target="_blank"
@@ -219,7 +219,7 @@ const About = () => {
           </div>
         </div>
         <Line>
-          <div className="text">
+          <div>
             {t("temoignage-titre")}
             <br />
             <br />
@@ -258,7 +258,7 @@ const About = () => {
               alt=""
             />
           </div>
-          <div className="text">{t.rich("creneau-solidaire", rich)}</div>
+          <div>{t.rich("creneau-solidaire", rich)}</div>
         </Line>
       </Section>
     </>
