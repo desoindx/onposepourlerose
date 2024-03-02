@@ -59,7 +59,16 @@ const About = () => {
           </LinkButton>
         </Line>
       </Section>
-      <NextEdition banner={styles.banner2Image} withButton />
+      <NextEdition banner={styles.banner2Image}>
+        <LinkButton
+          href="https://www.helloasso.com/associations/onposepourlerose/adhesions/adhesion-2024"
+          target="_blank"
+          rel="noopener noreferer"
+          priority="secondary"
+        >
+          {tHeader("adherer")}
+        </LinkButton>
+      </NextEdition>
 
       <Section>
         <h2>{t("soutien-titre").toUpperCase()}</h2>

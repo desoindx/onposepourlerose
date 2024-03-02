@@ -30,3 +30,26 @@
     background-color: var(--primary-light);
   }
 }
+
+.secondary {
+  color: var(--primary);
+  background-color: var(--white);
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--background-dark);
+  }
+
+  &:focus {
+    outline: 3px solid var(--white);
+    outline-offset: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  &:active {
+    background-color: var(--background-dark);
+  }
+}

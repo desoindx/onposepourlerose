@@ -19,9 +19,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  background-color: var(--primary-light);
-  opacity: 0.9;
+  background-color: var(--primary-transparent);
   color: var(--white);
   max-width: 500px;
   padding: 2rem;
+}
+
+.children {
+  margin-top: 1rem;
+  text-align: center;
 }

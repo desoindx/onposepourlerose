@@ -18,7 +18,6 @@ const Link = ({
     ? `/${params.locale}${props.href === "/" ? "" : props.href}`
     : props.href;
 
-  console.log(href, pathName);
   return (
     <NextLink
       {...props}

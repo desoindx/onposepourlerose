@@ -6,9 +6,11 @@ import styles from "./LinkButton.module.css";
 import classNames from "classnames";
 import { useParams } from "next/navigation";
 
-const LinkButton = (
-  props: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>,
-) => {
+const LinkButton = ({
+  priority,
+  ...props
+}: { priority?: "secondary" } & LinkProps &
+  AnchorHTMLAttributes<HTMLAnchorElement>) => {
   const params = useParams();
   const href = props.href.startsWith("/")
     ? `/${params.locale}${props.href}`
@@ -18,7 +20,9 @@ const LinkButton = (
     <NextLink
       {...props}
       href={href}
-      className={classNames(styles.button, props.className)}
+      className={classNames(styles.button, props.className, {
+        [styles.secondary]: priority === "secondary",
+      })}
     />
   );
 };
