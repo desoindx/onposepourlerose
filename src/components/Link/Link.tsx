@@ -15,8 +15,10 @@ const Link = ({
 
   const params = useParams();
   const href = props.href.startsWith("/")
-    ? `/${params.locale}${props.href}`
+    ? `/${params.locale}${props.href === "/" ? "" : props.href}`
     : props.href;
+
+  console.log(href, pathName);
   return (
     <NextLink
       {...props}

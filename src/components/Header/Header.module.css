@@ -33,7 +33,17 @@
 
   a {
     padding: 0.5rem 0;
+
+    &:focus {
+      outline: 3px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
   }
+
 }
 
 .burgerMenu {
